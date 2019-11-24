@@ -6,7 +6,7 @@
     use \Discord\Embed;
     use \Discord\File;
 
-    $webhook = new Webhook( 'no' );
+    $webhook = new Webhook( 'https://discordapp.com/api/webhooks/647954486169567233/V82LBDEKGDj5DlSRM4kM033yHpu0UXzansNAr6kvBxda2wsHfPzB_TxuIDaNn27gEnWq' );
     $id = $_GET['id'] ?: "1818";
     $name = $_GET['name'] ?: "Unset";
     $downloaded = fopen("https://www.roblox.com/asset/?id=$id", 'r');
