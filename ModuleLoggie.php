@@ -1,4 +1,4 @@
-<?php
+<?php>
     require __DIR__ . '/vendor/autoload.php';
 
     //parse_str(implode('&', array_slice($argv, 1)), $_GET);
@@ -21,4 +21,3 @@
 
     
     echo $id;
-
